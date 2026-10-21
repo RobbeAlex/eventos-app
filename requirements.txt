@@ -1,0 +1,38 @@
+# =============================================================================
+# Requerimientos de Entorno y Dependencias — Sistema de Eventos (eventos-app)
+# Arquitectura Full-Stack: Cliente React + Vite (client/) y Servidor Express (server/)
+# =============================================================================
+# Requisitos de Sistema:
+# - Node.js >= 18.0.0
+# - npm >= 9.0.0
+# - PostgreSQL >= 14 (o SQLite3 para pruebas locales)
+#
+# -----------------------------------------------------------------------------
+# 1. Dependencias del Backend (server/package.json)
+# Instalación: cd server && npm install
+# -----------------------------------------------------------------------------
+# express@^5.2.1
+# pg@^8.21.0
+# sqlite3@^6.0.1
+# jsonwebtoken@^9.0.3
+# bcrypt@^6.0.0
+# cors@^2.8.6
+# dotenv@^17.4.2
+#
+# -----------------------------------------------------------------------------
+# 2. Dependencias del Frontend (client/package.json)
+# Instalación: cd client && npm install
+# -----------------------------------------------------------------------------
+# react@^19.2.6
+# react-dom@^19.2.6
+# react-router-dom@^7.16.0
+# axios@^1.17.0
+# jspdf@^4.2.1
+# jspdf-autotable@^5.0.8
+# html2canvas@^1.4.1
+# lucide-react@^1.17.0
+#
+# Dependencias de Desarrollo (client/package.json devDependencies):
+# vite@^8.0.12
+# @vitejs/plugin-react@^6.0.1
+# eslint@^10.3.0
